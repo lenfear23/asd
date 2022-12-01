@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+}
+.phone{
+    width: 420px;
+    height: 600px;
+    border-radius: 10px;
+}

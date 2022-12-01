@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Phone-preview</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="/main.css">
+    
+</head>
+<body>
+    <div class="cont">
+    <div class="pre">
+    <h1><%= allatNev %></h1>
+    <h1><%= allatEletkor %></h1>
+    <h1><%= allatFajta %></h1>
+    <div class="information">
+        <% if (allatFajta == "Oroszlán") { %>
+            <p>Az oroszlán (Panthera leo) a macskafélék (Felidae) családjába tartozó emlős. A tigris után ez a legnagyobb termetű és legelterjedtebb „nagymacska”. Vadon élő állománya rohamosan csökken, afrikai falkái tíz év alatt szinte megfeleződtek.</p>
+        <% } else if (allatFajta == "Majom") { %>
+            <p>A csimpánz (Pan) az emberszabású majmok egy neme, amelybe az ember két legközelebbi rokona, a közönséges csimpánz és a bonobó vagy törpecsimpánz tartozik. A csimpánzok fejlődési vonala mintegy 6 millió éve vált külön az emberekétől;</p>
+        <% } else { %>
+            <p>A zsiráf (Giraffa camelopardalis) az emlősök (Mammalia) osztályának párosujjú patások (Artiodactyla) rendjébe, ezen belül a zsiráffélék (Giraffidae) családjába tartozó faj</p>
+            <% } %>
+        </div>
+    </div>
+</div>
+</body>
+</html>
